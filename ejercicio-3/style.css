@@ -21,8 +21,9 @@
 
 .flex-elements{
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: space-between;
+
 }
 
 img{
@@ -43,8 +44,11 @@ h2{
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  text-align: center;
+  margin: 0 0 20px 0;
   font-size: 36px;
   color: var(--color-acento)
+
 }
 
 h3{
@@ -93,6 +97,7 @@ p{
   #cabecera-web{
     flex-direction: column;
     text-align: center;
+    
   }
   #cabecera-web > nav{
     width: 100%;
@@ -100,7 +105,47 @@ p{
   .bt-principal{
     display: block;
     width: 100%;
-    border-bottom: 1px solid var(--color-acento);
+    border-bottom: 1px solid var(--color-acento); 
+  }
+  .flex-elements{
+    flex-direction: column;
   }
  }
- 
+
+ #seccion-destacada{
+  padding: 100px 0;
+ }
+
+.boton{
+     font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: white;
+  background: var(--color-principal);
+  padding: 8px 15px 8px 15px;
+  text-decoration: #7A3FDE;
+  transition: 0.3s all linear;
+  margin: 10px 0;
+  display: inline-block;
+  border-radius: 10px;
+}
+.boton:hover{
+     background: var(--color-acento); 
+     padding: 8px 20px 8px 20px;
+}
+.articulo{
+  margin: 10px 15px;
+  padding: 10px;
+  box-shadow: 0 0 5px var(--color-acento);
+  border-radius: 10px
+}
+
+#video{
+  background-image: linear-gradient(to bottom, #7A3FDE, white);
+  padding: 100px 20px;
+}
+#video h2{
+color: aliceblue;
+}
