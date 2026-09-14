@@ -109,9 +109,14 @@ p{
     border-bottom: 1px solid var(--color-acento); 
     border-radius: 10px;
   }
+  
   .flex-elements{
     flex-direction: column;
   }
+  .footer-lista{
+    flex-direction: column;
+  }
+  
  }
 
  #seccion-destacada{
@@ -145,8 +150,10 @@ p{
 }
 
 #video{
-
   padding: 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px var(--color-acento);
+  margin: 0 20px;
 }
 
 
@@ -173,6 +180,8 @@ p{
 .map-container{
 padding: 8px 15px 8px 15px;
 border-radius: 10px;
+box-shadow: #6A0D83;
+margin: 0 20px;
 }
 .footer-brand{
    width: 200px;
