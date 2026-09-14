@@ -175,7 +175,7 @@ padding: 8px 15px 8px 15px;
 border-radius: 10px;
 }
 .footer-brand{
-   width: 150px;
+   width: 200px;
     height: auto;
     padding: 8px 20px 8px 20px;
 }
@@ -183,16 +183,28 @@ border-radius: 10px;
     background: linear-gradient(to bottom, white, #CE4993, white);
 }
 
-#footer-prestadores{
-     margin: 10px 15px;
-  }
-   
-#footer-profesionales{
-    margin: 10px 15px;
+footer{
+  display: flex;
+  flex-direction: row;
+  border-top: 3px solid #EE5D6C;
+  margin-top: 50px;
 }
-#footer-contacto{
-     margin: 10px 15px;
+#footer-info{
+  display: flex;
+  flex-direction: row;
 }
-#info-extra{
-    margin: 10px 15px
+.footer-lista{
+  margin: 0 30px;
+ display: flex; 
+ flex-direction: column; 
+}
+ul{
+  list-style: none;
+}
+
+#titulo-mapa{
+  margin-top: 50px;
+}
+#dt-semana{
+  margin-top: 50px
 }
